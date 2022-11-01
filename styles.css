@@ -1,0 +1,57 @@
+
+
+input[type=button] {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 350px;
+    margin-left: 45%;
+    margin-right: 45%;
+    position: fixed;
+    width: 5rem;
+    height: 5rem;
+    font-size: large;
+    font-weight: bold;
+}
+
+    
+   
+
+
+#generate{
+    letter-spacing: 0.2em;
+    margin: 0 auto;
+    margin-left: 45%;
+    margin-right: 45%;
+    position: relative;
+    top: 20rem;
+    left: -3rem;
+    font-size: larger;
+    
+    
+    
+    text-align: center;
+   
+   
+      
+    
+}
+h1{
+    margin: 0;
+    
+    background-color: #ff6f61;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+label{
+    font-size: larger;
+    font-weight: bold;
+    color: #ccc;
+   
+}
+#labelColor{
+    background-color: #333;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
