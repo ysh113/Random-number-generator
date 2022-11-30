@@ -1,40 +1,64 @@
 
 
-input[type=button] {
+/* input[type=button] {
     text-align: center;
     margin: 0 auto;
     margin-top: 350px;
     margin-left: 45%;
     margin-right: 45%;
-    position: fixed;
+    position: relative;
     width: 5rem;
     height: 5rem;
     font-size: large;
     font-weight: bold;
+} */
+
+#button{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    top: 30rem;
+    
+    
 }
 
+#roll{
+    width: 80px;
+    height: 80px;
+}
     
    
 
 
 #generate{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
     letter-spacing: 0.2em;
     margin: 0 auto;
-    margin-left: 45%;
-    margin-right: 45%;
-    position: relative;
-    top: 20rem;
-    left: -3rem;
+    
+    
+    
     font-size: larger;
     
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     
     
-    text-align: center;
    
    
       
     
 }
+
+
 h1{
     margin: 0;
     
@@ -54,4 +78,13 @@ label{
     background-color: #333;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+
+
+
+@media(max-width:2000px){
+    #header{
+        width: 100%;
+    }
 }
