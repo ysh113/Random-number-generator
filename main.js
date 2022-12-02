@@ -1,6 +1,6 @@
 let test = document.getElementById("tr").getElementsByTagName("tbody")[0]
 
-let row = test.insertRow()
+// let row = test.insertRow()
 
 let roll = document.getElementById("roll")
 
@@ -10,16 +10,16 @@ let numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25
 function none(){
     document.getElementById("digits").onchange = function(){
 
-        var child = row.lastElementChild 
-            while(child){
-                row.removeChild(child)
-                child = row.lastElementChild
-            }
+        // var child = row.lastElementChild this code was used when I had rectangular shapes to display numbers to remove last element so it goes from 7 rectangles to 6 and vice versa. Now that I dont use rectangles to display numbers I dont need this.
+        //     while(child){
+        //         row.removeChild(child)
+        //         child = row.lastElementChild
+        //     }
         
         if(this.value == "xxdigit"){
                 //  for (let i = 0; i < 6; i++) {
                 
-                // let newCell = row.insertCell(i)
+                // let newCell = row.insertCell(i)  dont need to insert new cell
                roll.addEventListener("click", function(){
                 let numbers = []
                 while(numbers.length < 6){
@@ -45,11 +45,11 @@ function none(){
             
         }else if(this.value == "xxxdigit"){
             
-            var child = row.lastElementChild 
-            while(child){
-                row.removeChild(child)
-                child = row.lastElementChild
-            }
+            // var child = row.lastElementChild 
+            // while(child){
+            //     row.removeChild(child)
+            //     child = row.lastElementChild
+            // }
             // for (let i = 0; i < 7; i++) {
               // let newCell = row.insertCell(i)    
                 
